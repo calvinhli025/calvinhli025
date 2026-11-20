@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Calvin Li — AI Engineer building intelligent agents and production-ready LLM systems." />
+  <title>Calvin Li — AI Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="nav-wrap">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Calvin Li home">
+        <span class="brand-mark">CL</span>
+        <span>calvin.li</span>
+      </a>
+      <div class="nav-links">
+        <a href="#work">Work</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#about">About</a>
+      </div>
+      <a class="nav-cta" href="https://github.com/calvinhli025" target="_blank" rel="noreferrer">
+        GitHub <span>↗</span>
+      </a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy reveal">
+        <div class="status"><span></span> Available for AI engineering opportunities</div>
+        <h1>I design intelligent<br><em>systems that work.</em></h1>
+        <p class="hero-lede">AI Engineer focused on <strong>LLM applications</strong>, <strong>agent architectures</strong>, and <strong>research-driven workflows</strong>.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore my work <span>↓</span></a>
+          <a class="button button-secondary" href="https://github.com/calvinhli025" target="_blank" rel="noreferrer">View GitHub <span>↗</span></a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="AI system architecture illustration">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="core">
+          <div class="core-grid"></div>
+          <div class="core-label">AI CORE</div>
+          <div class="core-pulse"></div>
+        </div>
+        <div class="node node-one"><span>01</span><strong>Reason</strong></div>
+        <div class="node node-two"><span>02</span><strong>Retrieve</strong></div>
+        <div class="node node-three"><span>03</span><strong>Act</strong></div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Skills ticker">
+      <div class="ticker-track">
+        <span>LLM APPLICATIONS</span><i>✦</i><span>AI AGENTS</span><i>✦</i><span>RAG SYSTEMS</span><i>✦</i><span>LANGGRAPH</span><i>✦</i><span>PYTHON</span><i>✦</i>
+        <span>LLM APPLICATIONS</span><i>✦</i><span>AI AGENTS</span><i>✦</i><span>RAG SYSTEMS</span><i>✦</i><span>LANGGRAPH</span><i>✦</i><span>PYTHON</span><i>✦</i>
+      </div>
+    </section>
+
+    <section class="work-section container" id="work">
+      <div class="section-heading reveal">
+        <div><span class="eyebrow">01 / Selected work</span><h2>Built for the<br><em>real world.</em></h2></div>
+        <p>Projects exploring how language models can reason, retrieve information, use tools, and support meaningful human workflows.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card project-featured reveal">
+          <div class="project-preview preview-guide">
+            <div class="window-bar"><span></span><span></span><span></span><b>langgraph-guide</b></div>
+            <div class="diagram">
+              <div class="diagram-node start">Start</div>
+              <div class="diagram-arrow">→</div>
+              <div class="diagram-node agent">Agent</div>
+              <div class="diagram-arrow split">↙&nbsp;&nbsp;↘</div>
+              <div class="diagram-row"><div class="diagram-node tool">Tools</div><div class="diagram-node end">Output</div></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>Featured project</span><span>2026</span></div>
+            <h3>LangGraph Complete Guide</h3>
+            <p>A practical guide for researchers and students—from graph fundamentals to ReAct, supervisor patterns, and research pipelines.</p>
+            <div class="tags"><span>LangGraph</span><span>Python</span><span>Multi-Agent</span></div>
+            <a href="https://github.com/calvinhli025/langgraph-complete-guide" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-preview preview-101">
+            <div class="code-card"><span class="code-purple">from</span> langgraph.graph <span class="code-purple">import</span> StateGraph<br><br><span class="code-blue">graph</span> = StateGraph(State)<br><span class="code-blue">graph</span>.add_node(<span class="code-green">"agent"</span>, agent)<br><span class="code-blue">graph</span>.add_edge(<span class="code-green">"START"</span>, <span class="code-green">"agent"</span>)<br><br><span class="code-muted"># run the workflow</span></div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>Learning resource</span><span>Notebook</span></div>
+            <h3>LangGraph 101</h3>
+            <p>An approachable notebook series for learning graph-based LLM workflows from first principles.</p>
+            <div class="tags"><span>Jupyter</span><span>LLMs</span><span>Python</span></div>
+            <a href="https://github.com/calvinhli025/langgraph-101" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="expertise-section" id="expertise">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><span class="eyebrow">02 / Expertise</span><h2>How I build<br><em>AI systems.</em></h2></div>
+        </div>
+        <div class="expertise-grid">
+          <article class="expertise-card reveal"><span class="number">01</span><div class="icon">⌁</div><h3>Agent Architecture</h3><p>Stateful, tool-using systems with clear control flow, reliable transitions, and human-readable behavior.</p><div class="skill-list">LangGraph · ReAct · Tool Calling</div></article>
+          <article class="expertise-card reveal"><span class="number">02</span><div class="icon">⌕</div><h3>Retrieval Systems</h3><p>Context-aware applications that combine structured knowledge, semantic search, and grounded generation.</p><div class="skill-list">RAG · Embeddings · Vector Search</div></article>
+          <article class="expertise-card reveal"><span class="number">03</span><div class="icon">◎</div><h3>AI Evaluation</h3><p>Practical testing and observability so AI features remain measurable, traceable, and continuously improvable.</p><div class="skill-list">Tracing · Benchmarks · Metrics</div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section container" id="about">
+      <div class="about-panel reveal">
+        <div class="about-label"><span class="eyebrow">03 / About</span></div>
+        <div class="about-copy">
+          <h2>Curious mind.<br><em>Engineering discipline.</em></h2>
+          <p>I am Calvin, an AI engineer interested in turning emerging model capabilities into useful, understandable systems.</p>
+          <p>My work sits at the intersection of <strong>language models, software engineering, and research</strong>—with a focus on agents that can reason, retrieve, act, and support complex decisions.</p>
+          <a class="text-link" href="https://github.com/calvinhli025" target="_blank" rel="noreferrer">See what I'm building <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="container contact-inner reveal">
+        <p>Have an interesting problem?</p>
+        <h2>Let's build something<br><em>intelligent.</em></h2>
+        <a class="button button-light" href="https://github.com/calvinhli025" target="_blank" rel="noreferrer">Start a conversation <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner"><a class="brand" href="#top"><span class="brand-mark">CL</span><span>calvin.li</span></a><p>© 2026 Calvin Li</p><a href="https://github.com/calvinhli025" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
